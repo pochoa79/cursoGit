@@ -88,6 +88,8 @@ _A list of commonly used Git and Terminal commands_
 | `git pull` | Update local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository | Hace un feth y fusiona
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository | Crea un repositorio remoto |
+| `git pull origin master`| Pull changes from remote repository |  traer los cambios de un repositorio remoto
+| `git pull origin master --allow-unrelated-histories` | Pull changes from remote repository |  traer los cambios de un repositorio remoto con el modificador que permite hacer pull entre dos repositorios que no tienen commits en común lo usaremos para el primer pull puesto que efectivamente no común commits en común |
 | `fork` | Copy a external repository | Copa un repositorio externo |
 | `git remote -v` | list remote connections | Lista las conexiones remotas |
 | `git remote set-url [branch name] [url]` | Change the url | Cambia la url del repositorio |
